@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayernotificationSystem : MonoBehaviour
 {
     [SerializeField] GameObject notificationBox;
+
     void Update()
     {
         if(PlayerColiderController.instance.isColided())
@@ -12,7 +13,7 @@ public class PlayernotificationSystem : MonoBehaviour
             notificationBox.SetActive(true);
         }else
         {
-            notificationBox.SetActive(false);
+            notificationBox.SetActive(false);      
         }
     }
 }

@@ -10,8 +10,10 @@ public class PlayerController : MonoBehaviour
     private Animator anim;
     private bool isFacingRight = true;
     private Rigidbody2D rb;
-    [SerializeField] float speed = 5f;
-
+    [SerializeField] float speed = 2f;
+    private void Reset() {
+        speed = 2f;
+    }
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -23,7 +25,7 @@ public class PlayerController : MonoBehaviour
         Player_Animation();
         PlayerMove();
     }
-
+    
     private void PlayerMove()
     {
         //note: the rigidbody velocity is run at the base ms/s no need the time.deltaTime
