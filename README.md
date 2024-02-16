@@ -1,4 +1,5 @@
 # Project-Horror
+![untitled.png](https://i.postimg.cc/nrwN4MXS/untitled.png)
 # Story
 # Tiêu đề: "Tiếng Thì Thầm Trong Bóng Tối/Whisper in the dark"
 
